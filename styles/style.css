@@ -1,0 +1,35 @@
+:root {
+  --primary-color: rgba(228, 187, 130, 0.9);
+  --secondary-color: #b3460b;
+  --box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 0.4);
+  --border-radius: 6px;
+}
+
+body {
+  padding-top: 100px;
+  color: #fff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: var(--secondary-color);
+  background-image: url("/images/page-background.jpg");
+}
+.container {
+  padding: 65px 15px;
+  margin: 10px auto;
+  background-color: var(--primary-color);
+}
+.navigation {
+  background-color: var(--secondary-color);
+  padding: 15px 25px;
+  color: #fff;
+  margin: 5px 10px;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+}
+img {
+  box-shadow: var(--box-shadow);
+  max-width: 100%;
+}
