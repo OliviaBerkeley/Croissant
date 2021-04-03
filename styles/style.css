@@ -15,16 +15,19 @@ body {
   background-color: var(--secondary-color);
   background-image: url("/images/page-background.jpg");
 }
-.container {
+.page-container {
   padding: 65px 15px;
   margin: 10px auto;
   background-color: var(--primary-color);
 }
+/*.navigation-links {
+  display: flex;
+}*/
 .navigation {
   background-color: var(--secondary-color);
   padding: 15px 25px;
   color: #fff;
-  margin: 5px 10px;
+  margin: 15px 10px;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   text-decoration: none;
